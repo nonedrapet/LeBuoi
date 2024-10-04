@@ -7,6 +7,7 @@ import Login from './app/Login';
 import Home from './app/HomeScreen'; // Màn hình Home
 import AddServiceScreen from './app/AddServiceScreen';
 import AuthLoading from './app/AuthLoading'; // Màn hình AuthLoading
+import ServiceDetailScreen from './app/ServiceDetailScreen';
 
 import { LogBox } from 'react-native'; // Import LogBox
 
@@ -25,6 +26,7 @@ const App = () => {
         <Stack.Screen name="Signup" component={Signup} />
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="AddService" component={AddServiceScreen} />
+        <Stack.Screen name="ServiceDetail" component={ServiceDetailScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
